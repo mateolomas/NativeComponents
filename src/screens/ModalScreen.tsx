@@ -1,14 +1,5 @@
 import React from 'react';
-import {
-  Alert,
-  Button,
-  Modal,
-  Pressable,
-  StyleSheet,
-  Text,
-  TouchableOpacity,
-  View,
-} from 'react-native';
+import {Alert, Modal, Pressable, StyleSheet, Text, View} from 'react-native';
 import HeaderTitle from '../components/HeaderTitle';
 
 import {useState} from 'react';

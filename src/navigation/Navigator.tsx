@@ -9,6 +9,7 @@ import TextInputScreen from '../screens/TextInputScreen';
 import PullToRefreshScreen from '../screens/PullToRefreshScreen';
 import SectionListScreen from '../screens/SectionListScreen';
 import ModalScreen from '../screens/ModalScreen';
+import InfiniteScrollScreen from '../screens/InfiniteScrollScreen';
 
 const Stack = createNativeStackNavigator();
 
@@ -80,6 +81,13 @@ export const Navigator = () => {
         }}
         name="ModalScreen"
         component={ModalScreen}
+      />
+      <Stack.Screen
+        options={{
+          headerShown: false,
+        }}
+        name="InfiniteScrollScreen"
+        component={InfiniteScrollScreen}
       />
     </Stack.Navigator>
   );
